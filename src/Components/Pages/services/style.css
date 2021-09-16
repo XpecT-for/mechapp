@@ -1,0 +1,116 @@
+.fpage {
+    background-color: #1a1a1d;
+    margin: 50px 300px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 40%);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 50px;
+    box-shadow: 0px 12px 16px 0px #000000;
+  }
+  .element {
+    padding: 25px 50px;
+    margin: 25px 50px;
+    border: 2px solid #c3073f;
+    border-radius: 5px;
+    background-color: #1a1a1d;
+    color: white;
+  }
+  .element:hover {
+    background-color: #c3073f;
+    color: white;
+  }
+  
+  .element:focus {
+    background-color: #c3073f;
+    color: white;
+  }
+  .fa {
+    padding: 0px 10px;
+  }
+  
+  .heading {
+    color: white;
+    margin: 20px auto;
+  }
+  .progress-bar-area {
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .element-nb {
+    padding: 25px 50px;
+    margin: 25px 50px;
+    background-color: #1a1a1d;
+    color: white;
+    font-size: 20px;
+  }
+  .btns {
+    color: white;
+    border: 2px solid #c3073f;
+    background-color: #c3073f;
+    padding: 5px 20px;
+    margin: 0px 20px;
+    border-radius: 30px;
+  }
+  .btns:hover {
+    color: #1a1a1d !important;
+    border: 2px solid white !important;
+    background-color: white !important;
+    padding: 5px 20px;
+    margin: 0px 20px;
+  }
+  
+  .backb {
+    justify-self: start;
+  }
+  .nextb {
+    justify-self: end;
+  }
+  .inactive {
+    display: none;
+  }
+  
+  h4 {
+    color: #c3073f;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .fpage {
+      margin: 30px 40px 0px 40px;
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      grid-gap: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px 5px;
+      box-shadow: 0px 12px 16px 0px #000000;
+    }
+    .element {
+      padding: 15px 10px;
+      margin: 25px 50px;
+      border: 2px solid #c3073f;
+      border-radius: 5px;
+      background-color: #1a1a1d;
+      color: white;
+    }
+    .backb {
+      justify-self: auto;
+      margin: 10px 20px;
+    }
+    .nextb {
+      justify-self: auto;
+      margin: 10px 20px;
+    }
+    .btns:hover {
+      margin: 10px 20px;
+    }
+  }
+  
